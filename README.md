@@ -17,20 +17,8 @@ Desenvolver um sistema integrado capaz de:
 
 ---
 
-## Arquitetura do Sistema
+## Como Rodar
 
-```text
-[ Drone (Simulação) ]
-          ↓
-[ API Segura (Flask + Token) ]
-          ↓
-[ Módulo de Análise de Dados ]
-          ↓
-[ Dashboard (Visualização) ]
-
----
-
-##  Como rodar
 1 Baixe o repositório .zip
 2 Extraia e Abra a pasta
 3 abra o cmd dentro da pasta selecionada
