@@ -1,0 +1,4 @@
+def analisar(dado):
+    if dado["temperatura"] > 30:
+        return "Alerta: Temperatura alta"
+    return "Ambiente normal"
