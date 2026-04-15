@@ -5,6 +5,8 @@ app = Flask(__name__)
 
 API_TOKEN = os.getenv("API_TOKEN", "change-me")
 
+dados_recebidos = []
+
 @app.route("/telemetry", methods=["POST"])
 def receive_telemetry():
     token = request.headers.get("Authorization")
@@ -20,7 +22,15 @@ def receive_telemetry():
     if missing:
         return {"error": "Invalid payload", "missing": missing}, 400
 
+    dados_recebidos.append(data)
+
     return {"status": "accepted"}
+
+
+@app.route("/telemetry", methods=["GET"])
+def get_telemetry():
+    return jsonify(dados_recebidos)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
