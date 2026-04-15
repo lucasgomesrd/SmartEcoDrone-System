@@ -26,21 +26,19 @@ Desenvolver um sistema integrado capaz de:
 4. No primeiro terminal, execute:
 
 cd api_security
-pip install -r ../requirements.txt
 python app.py
 
 
 5. Abra outro CMD (também dentro da pasta do projeto) e execute:
 
 cd drone_simulation
-pip install -r ../requirements.txt
 python simulation.py
 
 
 6. Abra outro CMD e execute:
 
 cd dashboard
-pip install -r ../requirements.txt
+
 python -m streamlit run app.py
 
 
