@@ -19,17 +19,29 @@ Desenvolver um sistema integrado capaz de:
 
 ## Como Rodar
 
-1 Baixe o repositório .zip
-2 Extraia e Abra a pasta
-3 abra o cmd dentro da pasta selecionada
-4 digite dentro do cmd
-          cd api_security
-          python app.py
-5 abra outro cmd  (importante estar dentro da pasta indicada)
-          cd drone_simulation
-          python simulation.py
-6 abra outro cmd
-          cd dashboard
-          python -m streamlit run app.py
-7 deve aparecer a api funcionando
-          
+1. Baixe o repositório (.zip)  
+2. Extraia e abra a pasta do projeto  
+3. Abra o CMD dentro da pasta do projeto  
+
+4. No primeiro terminal, execute:
+
+cd api_security
+pip install -r ../requirements.txt
+python app.py
+
+
+5. Abra outro CMD (também dentro da pasta do projeto) e execute:
+
+cd drone_simulation
+pip install -r ../requirements.txt
+python simulation.py
+
+
+6. Abra outro CMD e execute:
+
+cd dashboard
+pip install -r ../requirements.txt
+python -m streamlit run app.py
+
+
+7. A API deve estar rodando e o dashboard abrirá no navegador automaticamente
