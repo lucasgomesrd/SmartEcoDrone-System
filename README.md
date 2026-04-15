@@ -27,3 +27,7 @@ Desenvolver um sistema integrado capaz de:
 [ Módulo de Análise de Dados ]
           ↓
 [ Dashboard (Visualização) ]
+
+```
+## Próximo passo recomendado
+Veja o plano de evolução em `docs/PLANO_PARA_PROJETO_REAL.md` para transformar este protótipo em um MVP real.
