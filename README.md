@@ -28,6 +28,8 @@ Desenvolver um sistema integrado capaz de:
           ↓
 [ Dashboard (Visualização) ]
 
+---
+
 ## Como rodar
 1 Baixe o repositório .zip
 2 Extraia e Abra a pasta
