@@ -1,0 +1,16 @@
+from flask import Flask, request
+
+app = Flask(__name__)
+
+TOKEN = "12345"
+
+@app.route("/dados", methods=["POST"])
+def receber():
+    token = request.headers.get("Authorization")
+
+    if token != TOKEN:
+        return {"erro": "Acesso negado"}, 403
+
+    return {"status": "ok"}
+
+app.run()
