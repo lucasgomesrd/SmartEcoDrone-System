@@ -1,0 +1,4 @@
+import streamlit as st
+
+st.title("Monitoramento Ambiental")
+st.write("Sistema de Drone Inteligente")
