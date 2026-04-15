@@ -25,20 +25,23 @@ Desenvolver um sistema integrado capaz de:
 
 4. No primeiro terminal, execute:
 
-/cd api_security
-/python app.py
+cd api_security
+
+python app.py
 
 
 5. Abra outro CMD (também dentro da pasta do projeto) e execute:
 
-/cd drone_simulation
-/python simulation.py
+cd drone_simulation
+
+python simulation.py
 
 
 6. Abra outro CMD e execute:
 
-/cd dashboard
-/python -m streamlit run app.py
+cd dashboard
+
+python -m streamlit run app.py
 
 
 7. A API deve estar rodando e o dashboard abrirá no navegador automaticamente
